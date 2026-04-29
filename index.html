@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Dachshund arlequim</title>
+</head>
+<body>
+    <nav class="text-success bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Dachshund</span>
+      </div>
+    </nav>
+    <hr>
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <h1>Sem nome(por enquanto)</h1>
+        <img class="rounded-circle"src="https://img.olx.com.br/images/91/918588199956355.jpg" alt="Dachshund" width="200">
+        <h2>influencer/cachorro troféu</h2>
+        <p>Minha namorada me pediu um cachorro desse e eu támbém quero então <br>
+        como sou ansioso vou fazer uma pagina pra ele</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Galeria de possiveis possibilidades de Dachshund</h3>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/d1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/d2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/d3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <div class="container">
+        <h3>links de guias para cuidado e informação</h3>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://en.wikipedia.org/wiki/Dachshund"><button class="btn">Informaçoes sobre Dachshunds</button></a></li>
+            <li class="list-group-item"><a href="https://dogacademy.org/breeds/dachshund"><button class="btn">Guia de cuidados para Dachshunds</button></a></li>
+            <li class="list-group-item"><a href="https://www.prodograw.com/raw-feeding-guide/dachshund-feeding-guide/"><button class="btn">Alimentação adequada para Dachshunds</button></a></li>
+            <li class="list-group-item"><a href="https://portalvet.royalcanin.com.br/guia-de-racas/dachshund/"><button class="btn">Saúde e bem-estar do seu Dachshund</button></a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="container">
+        <h4>Canis disponiveis</h4>
+        <table class="table">
+            <thead class="table-info">
+                <tr>
+                    <th>Id</th>
+                    <th>Canil</th>                    
+                    <th>Cidade</th>
+                    <th>Idade do cão</th>                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Canil dos Sonhos</td>
+                    <td>São Paulo</td>
+                    <td>2 meses</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Casa do Dachshund</td>
+                    <td>Rio de Janeiro</td>
+                    <td>3 meses</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Dachshund Feliz</td>
+                    <td>Belo Horizonte</td>
+                    <td>1 mês</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>formulario de cadastro</h3>
+        <form onsubmit="alert('enviado com sucesso')">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" type="email" id="email" placeholder="digite seu email aqui"></input>
+            </div>
+            <div>
+                <label for="password" class="form-label">Senha</label>
+                <input class="form-control" type="password" id="password" placeholder="digite sua senha aqui"></input>
+            </div>
+            <div>
+                <label for="textBox">Area de texto:</label>
+                <textarea class="form-control" id="textBox" rows="3" placeholder="Digite algo aqui"></textarea>
+            </div>
+            <!-- daqui pra baixo todos os imputs de html -->
+            <div>
+                <input type="text" class="form-control" placeholder="Digite um texto aqui" id="texto">
+            </div>
+            <div>
+                <input type="number" name="numero" id="numero" placeholder="Digite um número aqui" class="form-control">
+            </div>
+            <div>
+                <input type="month" class="form-control" placeholder="Digite um mês e ano" id="mesAno">
+            </div>
+            <div>
+                <input type="date" class="form-control" placeholder="Digite uma data" id="data">
+            </div>
+            <div>
+                <input type="time" class="form-control" placeholder="Digite um horário" id="horario">
+            </div>
+            <div>
+                <input type="color" class="form-control" placeholder="Escolha uma cor" id="cor">
+            </div>
+            <div>
+                <input type="checkbox" class="form-check-input" id="checkbox">
+                <label for="checkbox" class="form-check-label">Aceito os termos e condições</label>
+            </div>
+            <div>
+                <input type="radio" class="form-check-input" name="opcao" id="opcao1">
+                <label for="opcao1" class="form-check-label">Opção 1</label>
+                <br>
+                <input type="radio" class="form-check-input" name="opcao" id="opcao2">
+                <label for="opcao2" class="form-check-label">Opção 2</label>
+                <br>
+                <input type="radio" class="form-check-input" name="opcao" id="opcao3">
+                <label for="opcao3" class="form-check-label">Opção 3</label>
+            </div>
+            <div>
+                <input type="file" class="form-control" id="arquivo">
+            </div>
+            <div>
+                <input type="url" class="form-control" placeholder="Digite uma URL" id="url">
+            </div>
+            <div>
+                <input type="search" class="form-control" placeholder="Digite um termo de pesquisa" id="pesquisa">
+            </div>
+            <div>
+                <input type="range" class="form-range" id="range" min="0" max="100">
+            </div>
+            <div>
+                <input type="tel" class="form-control" placeholder="Digite um número de telefone" id="telefone">
+            </div>
+            <div>
+                <input type="week" class="form-control" placeholder="Digite uma semana e ano" id="semanaAno">
+            </div>
+            <div>
+                <input type="datetime-local" class="form-control" placeholder="Digite uma data e hora" id="dataHora">
+            </div>
+            <div>
+                <p>Campo oculto: </p><input type="hidden" id="hiddenInput" value="valor oculto">
+            </div>
+            <div>
+                <input type="image" src=".img/d1.jpg" alt="">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <button type="button" class="btn btn-danger">so clica</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <!-- explicando todas as tags ultilizadas neste codigo:
+    nav; tag que define uma seção de navegação, geralmente usada para criar menus de navegação em um site.
+    hr: tag que cria uma linha horizontal para separar conteúdo.     
+    div: tag que cria uma divisão
+    img: tag que insere uma imagem
+    span: tag que define um trecho de texto em linha, geralmente usado para estilização ou identificação de partes do texto.
+    button: tag que cria um botão interativo, usado para acionar ações quando clicado.
+    table: tag q define tabela
+    thead: tag que define a cabeça da tabela
+    tbody: tag que define o corpo da tabela
+    tr: tag que define uma linha da tabela
+    th: tag que define cabeçalho
+    td: tag que define células
+    form: tag de formulario
+    label: tag que define o titulo do input
+    input: tag que define um campo de entrada de dados
+    textarea: tag que define uma área de texto para entrada de dados
+    select: tag que define uma lista suspensa para seleção de opções
+    option: tag que define uma opção dentro de um select
+    type de imput e suas funçoes:
+    text: campo de texto simples para entrada de texto
+    password: campo de texto para entrada de senha, onde os caracteres digitados são ocultados  
+    email: campo de texto para entrada de endereço de email, com validação de formato
+    number: campo para entrada de números, com opções para definir limites e incrementos
+    date: campo para entrada de data, com um seletor de calendário
+    time: campo para entrada de hora, com um seletor de tempo
+    color: campo para seleção de cor, com um seletor de cores
+    checkbox: campo para seleção de opções, onde o usuário pode marcar ou desmarcar uma
+    opção radio: campo para seleção de opções, onde o usuário pode escolher apenas uma opção de um grupo
+    file: campo para upload de arquivos, permitindo que o usuário selecione um arquivo do seu dispositivo
+    url: campo para entrada de URL, com validação de formato
+    search: campo para entrada de termos de pesquisa, com funcionalidades adicionais para facilitar a busca
+    range: campo para seleção de um valor dentro de um intervalo, geralmente exibido como umcontrole deslizante
+    tel: campo para entrada de número de telefone, com validação de formato
+    week: campo para entrada de semana e ano, com um seletor de semanas
+    datetime-local: campo para entrada de data e hora, com um seletor de data e hora combinados
+    hidden: campo oculto que armazena um valor que não é exibido para o usuário, mas pode ser enviado com o formulário
+    image: campo que permite o envio de uma imagem, onde o usuário pode clicar na imagem
+    
+    texto pra caramba professor :)
+    
+-->
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
