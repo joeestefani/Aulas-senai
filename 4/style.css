@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(255, 230, 0, 0.637);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: aquamarine;
+
+}
+
+li {
+    width: 20px;
+}
+
+.destaque {
+    background-color: bisque;
+    color: lightblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.texto {
+    font-size: 30px;
+    color: red;
+}
+
+#principal {
+    color: greenyellow;
+    font-size: 70px;
+}
