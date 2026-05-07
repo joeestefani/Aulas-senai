@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fbecef;
+    padding: 10px;
+    gap: 10px;
+    font-size: 50px;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff788f;
+}
+#hed{
+    background-color: #0000;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45e2a8;
+    height: 50px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    min-height: 117vh;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fad0d7;
+    width: 30%;
+    max-width: 500px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9edfe;
+    padding: 15px;
+    width: 80%;
+    gap: 10px;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6edcfd;
+    width: 95%;
+    height: 85%;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    min-width: 500px;
+    background-color: #fff2b4;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    min-width: 500px;
+    background-color: #ebffa9;
+}
+
+section{
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    align-items: center;
+    background-color: #00a8ff;
+    width: 95%;
+    height: 20%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #b980ff;
+}
