@@ -1,3 +1,6 @@
+@media  screen {
+    
+}
 body{
     display: flex;
     flex-direction: column;
@@ -33,6 +36,12 @@ nav{
     background-color: white;
     border: none;
     color:#003566 ;
+}
+hr{
+    border: none;
+    height: 1px;
+    background:linear-gradient(90deg, #001D3D 10%, #003566 20%, #0077b6 30%, #FFC300 40%, #ffda62 50%, #FFC300 60%, #0077b6 70%, #003566 80%, #001D3D 90%), url(img/bg.jpg);
+    border-radius: 10px;
 }
 aside{
     background-color:#001D3D ;
